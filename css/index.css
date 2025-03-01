@@ -1,0 +1,67 @@
+/* background */
+body {
+    background-image: url('../img/background.png');
+    background-size: 1470px 900px;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    color: black;
+    margin-top: 30px;
+}
+
+
+/* making link look like button + positioning */
+.links {
+    position: relative;
+    display: flex; /* horizontal */
+    justify-content: space-around; /* add space between the links */
+    margin-top: 500px;
+}
+
+.links .link a {
+    display: inline-block;
+    background-color: #4CAF50; /* green background */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none; 
+    border-radius: 5px; /* round out corners */
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* change image size + position */
+.capybara-icon {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 430px;
+    left: 85px;
+}
+
+.rabbit-icon {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 470px;
+    left: 450px;
+}
+
+.flamingo-icon {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 370px;
+    left: 800px;
+}
+
+.jellyfish-icon {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 390px;
+    left: 1180px;
+}

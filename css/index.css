@@ -16,6 +16,7 @@ h1, h3 {
 .images {
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 /* making link look like button + positioning */

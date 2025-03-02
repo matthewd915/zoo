@@ -13,19 +13,31 @@ h1, h3 {
     margin-top: 30px;
 }
 
-.images {
-    position: relative;
+/* helps align images and links */
+.container {
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* making link look like button + positioning */
 .links {
-    position: relative;
     display: flex; /* horizontal */
-    justify-content: space-around; /* add space between the links */
-    margin-top: 500px;
+    justify-content: space-between; /* add space between the links */
+    width: 100%;
+}
+
+.links .link {
+    flex: 1;
+    text-align: center;
 }
 
 .links .link a {
@@ -44,31 +56,27 @@ h1, h3 {
 .capybara-icon {
     width: 220px;
     height: auto;
-    position: absolute;
-    top: 430px;
-    left: 85px;
+    flex: 1;
+    max-width: 25%;
 }
 
 .rabbit-icon {
     width: 220px;
     height: auto;
-    position: absolute;
-    top: 470px;
-    left: 450px;
+    flex: 1;
+    max-width: 25%;
 }
 
 .flamingo-icon {
     width: 220px;
     height: auto;
-    position: absolute;
-    top: 370px;
-    left: 800px;
+    flex: 1;
+    max-width: 25%;
 }
 
 .jellyfish-icon {
     width: 220px;
     height: auto;
-    position: absolute;
-    top: 390px;
-    left: 1180px;
+    flex: 1;
+    max-width: 25%;
 }

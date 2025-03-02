@@ -14,7 +14,7 @@ h1, h3 {
 }
 
 .images {
-    /* position: relative; */
+    position: relative;
     display: flex;
     justify-content: space-around;
     gap: 50px;
